@@ -31,7 +31,7 @@ header{
 }
 #wiko{
     width: 40px;
-   
+    
 }
 div{
     display: flex;
@@ -132,8 +132,8 @@ h1, .sub{
 }
 .back{
    background: lightblue;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+   display: flex;
+   flex-direction: row;
 }
 .boxes{
     display: grid;
@@ -145,6 +145,7 @@ h1, .sub{
     width: 200px;
     margin-bottom: 20px;
     height: 240px;
+    font-size: 0.7em;
     
 }
 .blockstitle1, .blockstitle2, .blockstitle3, .blockstitle4{
@@ -183,8 +184,8 @@ margin-right: 20%;
 }
 .mother{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: -1rem;
+    grid-template-columns: 2fr 2fr 2fr;
+    
     
 }
 button{
@@ -201,10 +202,14 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:240px;
+    width:300px;
     border-style:inherit
     border-radius: 5px ;
     margin-left: 40px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    margin-top: 0;
+
+  
     
 }
 .fin{
@@ -228,3 +233,42 @@ button{
     text-align: center;
     font-size: 13px;
 }
+.o{
+    width: 25px;
+    height: 
+}
+.you{
+    
+
+    display: none;
+    position: absolute;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    margin-top: 0;
+}
+.re{
+    position: relative;
+    margin-bottom: 0;
+    
+}
+.position{
+    display: inline-block;
+}
+.W, .A, .B, .C{
+    font-size: 20px;
+}
+   #re:hover .you{
+    display:block;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+   }
+.s0, .s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8{
+    width: 300px;
+    margin-top: 0;
+    
+}
+.dad{
+    width: auto;
+}
+
